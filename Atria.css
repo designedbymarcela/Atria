@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	text-align: center;
+	font-family: arial;
+}
+
+
+/* Header and navigation */
+
+.navigation {
+	background-color: mediumpurple;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top:0px;
+	left:0px;
+	justify-content: space-between;
+	z-index:1;
+} 
+
+.logo img {
+	width: 150px;
+	height:auto;
+	margin-bottom:0px;
+}
+
+.navmenu img {
+	height: 16px;
+}
+
+.navmenu {
+	margin-right: 25px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	margin: 0px 10px;
+}
+
+
+/* Main and hero */
+
+.main {
+	display: flex;
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height:300px;
+	background-image:url('./Media/hero_background.png');
+	overflow:hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.mission {
+
+	color:goldenrod;
+	background-color: white;
+	padding: 10px 35px;
+}
+
+/* Nuestros productos */
+
+.nuestrosproductos {
+	display: flex;
+	flex-direction: column;
+	position:relative;
+	top:150px;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards {
+	display: grid; 
+	grid-template: 1fr 1fr / 1fr 1fr 1fr;
+	grid-gap: 20px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.productcard {
+	background-color: mediumpurple;
+	color:white;
+	justify-content: center;
+	align-items: center
+}
+
+.productcard img {
+	width:300px;
+	height:300px;
+	overflow: hidden;
+}
+
+/* Equipo */
+
+.equipo {
+	display:block;
+	position:relative;
+	top:200px;
+	width:100%;
+	background-color: goldenrod;
+	padding-top:40px;
+	padding-bottom:40px;
+	color:white;
+}
+
+.ecards {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.employeecard {
+	justify-content: center;
+	width: 300px;
+	
+}
+.employeecard img{
+	height:150px;
+	border: 5px mediumpurple solid;
+}
+
+/* Footer */
+
+.footer {
+	position:relative;
+	top:200px;
+	display: block;
+	justify-items: center;
+	width:100%;	
+	color:mediumpurple;
+}
+
+.footer img {
+	width: 150px;
+	height:auto;
+	margin-top:px;
+	padding:0px;
+	
+}
+
+.footer h2 {
+	
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.copyright {
+	position:relative;
+	top:150px;
+	padding:25px;	
+	text-align:right;
+}
